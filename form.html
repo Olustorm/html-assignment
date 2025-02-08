@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Document</title>
+    <style>
+        h1{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+        .about{color: gray;}
+        .employment,.education,.discount{ background-color: #f2f2f2; width: 400px; 
+            height: 50px;border-radius:5px;border-style: hidden}
+        
+            button{background-color: blue;opacity: 0.8; width: 400px; 
+                height: 50px;border-radius:5px;color: white; border-style: hidden}
+                span{color: blue; opacity: 0.8;}
+            .terms{color: gray;  }
+            
+    </style>
+</head>
+<body>
+    <h1>Apply to Frontend Engineering</h1>
+    <section class="about">We will like to know more about you</section><br><br>
+   <section><form action="">
+        <label for="employment status">Employment status</label><br><br>
+
+    <select class="employment" name="Employment status" id="Employment status">
+        <option value="select your status">Select your status</option>
+        <option value="Employed">Employed</option>
+    <option value="Unemployed">Unemployed</option>
+    <option value="Student">Student</option>
+    <option value="Freelancer">Freelancer</option>
+    <option value="Entreprenuer">Entreprenuer</option>
+</select><br><br>
+<label for="Educational level">Educational Level</label><BR><br>
+<select class="education" name="Educational level" id="Educational Level">
+    <option value="Select your status">Select your status</option>
+    <option value="High school">High School</option>
+    <option value="Bachelor's degree">Bachelor's Degree</option>
+    <option value="Master's degree">Master's Degree</option>
+    <option value="Ph.D."> Ph.D.</option>
+</select><br><br>
+<label for="discount code">Discount Code</label><br><br>
+<input class="discount" type="text" placeholder="Enter your discount code">
+ </form></section><br><br>
+ <section class="terms">By clicking Apply Now, I agree to <span>Terms of Use</span> and acknowledge 
+    that I have read the <span>Privacy Policy</span>.</section><br><br>
+    <button>Apply now &rarr;</button>
+</body>
+</html>
